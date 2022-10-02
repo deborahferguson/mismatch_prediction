@@ -1,6 +1,6 @@
 # Mismatch Predicting Neural Network
 
-The neural network included in this repository predicts the mismatch between the gravitational waves emitted from any two binary black hole systems with symmetric mass ratio, $\eta > 0.0826$ ($q=m_1 / m_2 \leq 10$).
+The neural network included in this repository predicts the mismatch between the gravitational waves emitted from any two binary black hole systems with symmetric mass ratio, $\eta > 0.0826$ ( $q=m_1 / m_2 \leq 10$ ).
 
 The network and its uses are described in the paper by Deborah Ferguson at XX.
 

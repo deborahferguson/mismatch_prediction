@@ -24,11 +24,9 @@ $$\mathcal{MM} = 1 - \max_{t,\, \phi} \mathcal O[h_1, h_2]  \equiv  1 - \max_{t,
 
 where
 
-$$\langle h_{1}|h_{2} \rangle$$
+$$\langle h_{1}|h_{2} \rangle = 2\int_{f_{0}}^\infty$$
 
-$$= 2\int_{f_{0}}^\infty$$
-
-$$\frac{h_{1}^*h_{2} +h_{1}\,h_{2}^*}{S_{n}} df$$
+$$\frac{ h_{1}^* h_{2} +h_{1} h_{2}^* }{S_{n}} df$$
 
 
 and $h_1$ and $h_2$ are the strain of the gravitational waves emitted by the two systems respectively. 

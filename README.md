@@ -13,7 +13,7 @@ predict_many_mismatches: predict the mismatches between many pairs of binary sys
 ## Network overview
 
 The network inputs the initial parameters that describe two binary black hole systems.
-This includes their symmetric mass ratio ($\eta$) and the dimensionless spin components for each black hole ($\mathbf{a_1}$ and $\mathbf{a_2}$).
+This includes their symmetric mass ratio ( $\eta$ ) and the dimensionless spin components for each black hole ( $\mathbf{a_1}$ and $\mathbf{a_2}$ ).
 $\mathbf{a_1}$ and $\mathbf{a_2}$ are each 3-dimensional vectors, consisting of x-, y-, and z- components.
 We define $\lambda = \eta,\, \mathbf{a_{1}}, \, \mathbf{a_{2,}}$ as the initial parameters of a binary system.
 The network inputs $\lambda_1$ and $\lambda_2$ and outputs the mismatch between the gravitational waves emitted by the two systems. This is shown in the diagram included below.

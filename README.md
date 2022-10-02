@@ -13,9 +13,9 @@ predict_many_mismatches: predict the mismatches between many pairs of binary sys
 ## Network overview
 
 The network inputs the initial parameters that describe two binary black hole systems.
-This includes their symmetric mass ratio ($\eta$) and the dimensionless spin components for each black hole ($\bm{a_1}$ and $\bm{a_2}$).
-$\bm{a_1}$ and $\bm{a_2}$ are each 3-dimensional vectors, consisting of x-, y-, and z- components.
-We define $\lambda = \eta,\, \bm{a_{1}}, \, \bm{a_{2,}}$ as the initial parameters of a binary system.
+This includes their symmetric mass ratio ($\eta$) and the dimensionless spin components for each black hole ($\mathbf{a_1}$ and $\mathbf{a_2}$).
+$\mathbf{a_1}$ and $\mathbf{a_2}$ are each 3-dimensional vectors, consisting of x-, y-, and z- components.
+We define $\lambda = \eta,\, \mathbf{a_{1}}, \, \mathbf{a_{2,}}$ as the initial parameters of a binary system.
 The network inputs $\lambda_1$ and $\lambda_2$ and outputs the mismatch between the gravitational waves emitted by the two systems. This is shown in the diagram included below.
 
 The mismatch between two gravitational waves is defined as:
@@ -24,7 +24,7 @@ $$\mathcal{MM} = 1 - \max_{t,\, \phi} \mathcal O[h_1, h_2]  \equiv  1 - \max_{t,
 
 where
 
-$$ \langle h_{1}|h_{2} \rangle = 2\int_{f_{0}}^\infty\frac{h_{1}^*h_{2} +h_{1}\,h_{2}^*}{S_{n}} df $$
+$$\langle h_{1}|h_{2} \rangle = 2\int_{f_{0}}^\infty\frac{h_{1}^*h_{2} +h_{1}\,h_{2}^*}{S_{n}} df$$
 
 
 and $h_1$ and $h_2$ are the strain of the gravitational waves emitted by the two systems respectively. 

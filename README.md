@@ -2,7 +2,7 @@
 
 The neural network included in this repository predicts the mismatch between the gravitational waves emitted from any two binary black hole systems with symmetric mass ratio, $\eta > 0.0826$ ( $q=m_1 / m_2 \leq 10$ ).
 
-The network and its uses are described in the paper by Deborah Ferguson at XX.
+The network and its uses are described in the paper by Deborah Ferguson at https://arxiv.org/abs/2209.15144.
 
 This repository includes two jupyter notebooks to serve as examples of how to use this network.
 
@@ -41,7 +41,7 @@ It has been trained on the SXS public catalog of numerical relativity waveforms 
 
 ## Credit
 
-If you use this network, please cite XX with the bibtex entry:
+If you use this network, please cite Ferguson 2022 (https://arxiv.org/abs/2209.15144).
 
 
 
